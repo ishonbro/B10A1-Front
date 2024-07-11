@@ -117,12 +117,13 @@ nav ul li a {
     margin-top: 74px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
     padding: 0px;
 }
 
 #content .content-area {
+    text-align: left;
     width: 946px;
     height: 1233px;
 }
@@ -153,7 +154,9 @@ nav ul li a {
 
 .content1st {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 48px 0px;
 }
 
@@ -209,6 +212,8 @@ nav ul li a {
 
 .content2nd {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding: 48px 0px;
 }
@@ -245,6 +250,8 @@ nav ul li a {
 
 .content3rd {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     padding: 48px 0px;
 }
