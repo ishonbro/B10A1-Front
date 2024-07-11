@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.btn-container {
+    text-align: center;
+
+}
+
+.herobutton {
+    width: 244px;
+    height: 65px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(13, 19, 33);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 150px;
+}
+
+.logo {
+    width: 128px;
+    height: 33px;
+    left: 150px;
+    top: 50px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: white;
+    width: 244px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 17px 24px;
+
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
+#hero {
+    background-position: center;
+    width: auto;
+    height: 652px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-image: url("/assets/Hero-bg.png");
+}
+
+#hero .hero-main {
+    width: 998px;
+}
+
+#hero .hero-main img {
+    padding-top: 26px;
+    padding-bottom: 32px;
+    display: block;
+    margin: auto;
+}
+
+#hero .hero-main .title {
+    padding-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-main .desc .desc1 {
+    margin-bottom: 32px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+#content {
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#content .content-area {
+    width: 946px;
+    height: 1233px;
+}
+
+
+#content .content-area .headline .titlename {
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#content .content-area .headline .title-slogan {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    padding: 0px;
+}
+
+.content1st {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+
+.text-area-1 {
+    max-width: 477px;
+}
+
+.content1title {
+    padding: 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content1desc {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.btnread {
+    background-color: white;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+    width: 171px;
+    height: 47px;
+    padding: 12px 20px 12px 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+
+}
+
+.content2nd {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+
+.text-area-1 {
+    max-width: 477px;
+}
+
+.content2title {
+    width: 477px;
+    height: 72px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content2desc {
+    width: 468px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.content3rd {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+}
+
+.text-area-3 {
+    max-width: 477px;
+}
+
+.content3title {
+    padding: 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content3desc {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+#inspiration {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.mytitle {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.inspiredesc {
+    padding: 0px;
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+.video {
+    width: 1140px;
+    height: 614px;
+    margin-top: 48px;
+    border: 1px solid;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.ytframe {
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0px;
+    border-radius: 12px;
+}
+
+#target {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.textabout {
+    text-align: center;
+}
+
+.mytext {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.mydesc {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+.front-end {
+    width: 1140px;
+    height: 299px;
+
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    margin: 48px 0px;
+}
+
+.html {
+
+    padding: 40px;
+
+
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css {
+
+
+    padding: 40px;
+
+
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.jscript {
+
+
+    padding: 40px;
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.front-end-title-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.front-end-desc {
+    width: 284px;
+    height: 52px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.btnfront {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+#next-target {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.next-text {
+    text-align: center;
+}
+
+.next-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.next-target-desc {
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+}
+
+.reactmain {
+
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin-top: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+
+.nametarget {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.desctarget {
+    width: 941.22px;
+    height: 52px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+#contact-page {
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("/assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+
+
+}
+
+
+
+
+.formtitle {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.formdesc {
+
+    margin: 0 auto;
+
+    width: 606px;
+
+    height: 52px;
+
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.onlyform {
+
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+}
+
+input .textplace {
+    text-align: left;
+    width: 313px;
+height: 19px;
+}
+
+.textplace {
+
+    width: 548px;
+    height: 57px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 19px 20px 19px 20px;
+
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+
+    width: 548px;
+    height: 57px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+
+.textsubmit {
+    border: none;
+    width: 120px;
+height: 57px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 120px;
+    height: 57px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 20px 17px 20px;
+
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+}
+footer {
+    width: 1140px;
+height: 36px;
+padding: 32px 150px 32px 150px;
+
+    display: flex;
+    margin: 80px auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-icon {
+    display: flex;
+    gap: 24px;
+}
